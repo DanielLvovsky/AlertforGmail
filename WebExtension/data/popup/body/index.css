@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+table {
+  color: inherit;
+}
+body, td {
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+a {
+  color: #1155CC;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.root {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}

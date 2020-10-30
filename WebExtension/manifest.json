@@ -1,0 +1,45 @@
+{
+  "name": "Alert",
+  "short_name": "Alert",
+  "description": "Alert for Gmail",
+  "author": "Daniel Lvovsky",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "default_locale": "en",
+  "permissions": [
+    "*://mail.google.com/mail/",
+    "*://mail.google.com/sync/",
+    "tabs",
+    "notifications",
+    "contextMenus",
+    "webRequest",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "notification.png"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "16": "data/icons/blue/16.png",
+      "18": "data/icons/blue/18.png",
+      "19": "data/icons/blue/19.png",
+      "32": "data/icons/blue/32.png"
+    }
+  },
+  "background": {
+    "page": "lib/wrapper/chrome/background.html"
+  },
+  "options_ui": false,
+  "homepage_url": "https://alertforgmail.netlify.app/",
+  "icons": {
+    "16": "data/icons/red/16.png",
+    "18": "data/icons/red/18.png",
+    "19": "data/icons/red/19.png",
+    "32": "data/icons/red/32.png",
+    "48": "data/icons/red/48.png",
+    "64": "data/icons/red/64.png",
+    "128": "data/icons/red/128.png"
+  }
+  
+}
+
